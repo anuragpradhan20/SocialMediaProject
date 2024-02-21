@@ -1,0 +1,122 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+body{
+    box-sizing: border-box;
+    margin:0px;
+    padding:0px;
+    font-family: "Poppins", sans-serif;
+}
+.header{
+    border-bottom: 1px solid lightgray;
+    padding:14px 200px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.instagram-img{
+    height: 30px;
+}
+.links{
+    display: flex;
+    align-items: center;
+    gap:12px;
+}
+.links a{
+    text-decoration: none;
+    font-size: 14px;
+}
+.login{
+    color: white;
+    background-color: rgb(47, 138, 223);
+    padding:4px 16px;
+    border-radius: 6px;
+}
+.signup{
+    color: rgb(47, 138, 223);
+    font-weight: 500;
+}
+.img-box{
+    margin-top: 50px;
+}
+.content{
+    width:700px;
+    display: flex;
+    justify-content: center;
+    gap:90px;
+    padding:10px;
+    margin:10px 220px;
+}
+.google-logo{
+    width: 150px;
+    border:1px solid lightgray;
+    border-radius: 50%;
+}
+.content1{
+    display: flex;
+    align-items: center;
+    gap:26px;
+}
+.google-content{
+    display: flex;
+    align-items: center;
+    gap:5px;
+}
+.buttons button{
+  border:none;
+  padding: 8px;
+  border-radius: 8px;
+  font-size: small;
+  font-weight: 600;
+  width:80px;
+  margin:4px;
+}
+.buttons button:hover{
+    background-color: lightgray;
+    cursor: pointer;
+}
+.google-name{
+    font-size: large;
+}
+.verified{
+    color: rgb(59, 176, 223);
+}
+.content2{
+    display: flex;
+    align-items: center;
+    gap:42px;
+    margin:14px 0px;
+}
+.content2 a{
+  text-decoration: none;
+  font-size: 12px;
+  color: black;
+  font-weight: 600;
+}
+.content3 p{
+    padding:0px;
+    margin: 0px;
+    font-size: 12px;
+    
+}
+.google-website{
+margin:18px 0px;
+text-decoration: none;
+font-size: 12px;
+color: black;
+font-weight: 600;
+padding:4px;
+background-color: rgb(238, 231, 231);
+border-radius: 10px;
+}
+.google-website:hover{
+ background-color: lightgray;
+ cursor: pointer;
+}
+.linkin{
+    text-decoration: none;
+    font-size: 12px;
+    color: rgb(1, 1, 116);
+    font-weight: 500;
+}
+.google-name{
+    font-weight: 500;
+}
